@@ -1,7 +1,12 @@
 import React from "react";
+import CounterPage from "./counter/page";
 
 const page = () => {
-  return <></>;
+  return (
+    <>
+      <CounterPage />
+    </>
+  );
 };
 
 export default page;
