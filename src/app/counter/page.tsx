@@ -1,15 +1,14 @@
 import React from "react";
+import Counter from "../components/counter/Counter";
 
-const counterPage = () => {
+const CounterPage = () => {
   return (
     <section>
-      <div className="flex items-center justify-center gap-4">
-        <button>+</button>
-        <h2>45</h2>
-        <button>-</button>
+      <div className="flex items-center justify-center mt-10">
+        <Counter />
       </div>
     </section>
   );
 };
 
-export default counterPage;
+export default CounterPage;
