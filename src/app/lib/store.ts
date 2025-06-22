@@ -1,7 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-export default configureStore({
+const store = configureStore({
   reducer: {
     // Add your reducers here
   },
 });
+
+export default store;
