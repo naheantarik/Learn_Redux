@@ -2,16 +2,22 @@ import React from "react";
 
 const Counter = () => {
   return (
-    <div className="bg-white rounded-2xl shadow-2xl space-y-[20px]">
-      <h2 className="bg-gray-400 text-2xl text-white text-center py-3">
-        Counter App
-      </h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-        reprehenderit iste harum laborum sequi adipisci doloremque non inventore
-        asperiores odit voluptatem, ipsam eius nemo corporis minus incidunt
-        tenetur autem dolore!
-      </p>
+    <div className="w-full min-h-screen flex items-center justify-center bg-gray-100">
+      <div className="bg-white p-8 rounded-2xl shadow-xl text-center w-80">
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">Counter</h2>
+        <p className="text-5xl font-semibold text-blue-600 mb-6">0</p>
+        <div className="flex justify-center gap-4">
+          <button className="px-5 py-2 bg-red-500 hover:bg-red-600 text-white rounded-xl text-lg transition-all duration-200">
+            -
+          </button>
+          <button className="px-5 py-2 bg-gray-300 hover:bg-gray-400 text-gray-800 rounded-xl text-lg transition-all duration-200">
+            Reset
+          </button>
+          <button className="px-5 py-2 bg-green-500 hover:bg-green-600 text-white rounded-xl text-lg transition-all duration-200">
+            +
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
