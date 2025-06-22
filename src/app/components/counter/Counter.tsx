@@ -2,7 +2,7 @@ import React from "react";
 
 const Counter = () => {
   return (
-    <div className="bg-white rounded-2xl shadow-2xl space-y-10">
+    <div className="bg-white rounded-2xl shadow-2xl space-y-[20px]">
       <h2 className="bg-gray-400 text-2xl text-white text-center py-3">
         Counter App
       </h2>
