@@ -1,5 +1,5 @@
 import React from "react";
-import { useAppSelector } from "react-redux";
+import { useAppSelector } from "@/redux/hooks";
 
 const Counter = () => {
   const count = useAppSelector((state) => state.counter.value);
